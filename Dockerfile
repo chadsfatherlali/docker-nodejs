@@ -1,3 +1,3 @@
-FROM node:14
+FROM node:fermium-slim
 
 CMD ["tail", "-f", "/dev/null"]
